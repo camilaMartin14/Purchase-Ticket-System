@@ -71,7 +71,12 @@ public class Ticket {
     public void setValidityDate(Date validityDate) {
         this.validityDate = validityDate;
     }
-    
 
+    @Override
+    public String toString() {
+        return "Ticket{" + "number=" + number + ", row=" + row + ", seat=" + seat + ", price=" + price + ", purchaseDate=" + purchaseDate + ", validityDate=" + validityDate + '}';
+    }
+    
+    
     
 }

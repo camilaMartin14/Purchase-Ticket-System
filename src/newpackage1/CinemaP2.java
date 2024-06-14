@@ -44,6 +44,21 @@ public class CinemaP2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the row for which you want to see the tickets");
         int row = sc.nextInt();
+        
+        boolean flag = false;
+    
+        for(Ticket tick : ticketList){
+            if (tick.getRow() == row) {
+                System.out.println(tick.toString());
+                flag = true;
+            }
+        }
+    
+    
+    
+    
+    
+    
     }
     
 }
