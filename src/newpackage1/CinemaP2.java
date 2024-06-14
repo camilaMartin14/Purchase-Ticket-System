@@ -24,6 +24,16 @@ public class CinemaP2 {
 
         Ticket ticket3 = new Ticket();
         ticket3.setNumber(20);
+        ticket3.setRow(5);
+        ticket3.setSeat(1);
+        ticket3.setPrice(2300);
+        ticket3.setPurchaseDate(new Date());
+        ticket3.setValidityDate(new Date());
+        
+        
+        
+        
+        
     }
     
 }
