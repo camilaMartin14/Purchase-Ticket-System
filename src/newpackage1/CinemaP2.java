@@ -3,6 +3,7 @@ package newpackage1;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Scanner;
 import newpackage.Ticket;
 
 public class CinemaP2 {
@@ -30,9 +31,19 @@ public class CinemaP2 {
         ticketList.add(ticket2);
         ticketList.add(ticket3);
         
+        //sum of prices
+        double sum = 0;
         
+        for(Ticket tick : ticketList){
+            sum = sum + tick.getPrice();
+        }
         
+        System.out.println("The sum of the prices is: $" + sum);
         
+        //ask the user for the row
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the row for which you want to see the tickets");
+        int row = sc.nextInt();
     }
     
 }
