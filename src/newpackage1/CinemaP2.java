@@ -53,6 +53,10 @@ public class CinemaP2 {
                 flag = true;
             }
         }
+        
+        if (flag == false){
+            System.out.println("No data found for the row in question");
+        }
     
     
     
