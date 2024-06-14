@@ -23,31 +23,55 @@ public class Ticket {
         this.purchaseDate = purchaseDate;
         this.validityDate = validityDate;
     }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public int getRow() {
+        return row;
+    }
+
+    public int getSeat() {
+        return seat;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public Date getPurchaseDate() {
+        return purchaseDate;
+    }
+
+    public Date getValidityDate() {
+        return validityDate;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setRow(int row) {
+        this.row = row;
+    }
+
+    public void setSeat(int seat) {
+        this.seat = seat;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setPurchaseDate(Date purchaseDate) {
+        this.purchaseDate = purchaseDate;
+    }
+
+    public void setValidityDate(Date validityDate) {
+        this.validityDate = validityDate;
+    }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
 }
