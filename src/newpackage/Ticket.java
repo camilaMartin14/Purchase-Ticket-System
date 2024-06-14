@@ -10,7 +10,7 @@ public class Ticket {
     private double price;
     private Date purchaseDate;
     private Date validityDate;
-    private Client cli;
+    private Client c;
     
     public Ticket(){
         

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
+import newpackage.Client;
 import newpackage.Ticket;
 
 public class CinemaP2 {
@@ -58,11 +59,15 @@ public class CinemaP2 {
             System.out.println("No data found for the row in question");
         }
     
+    //client test
+    Client c1 = new Client();
+    c1.setId(1);
+    c1.setNombre("Camila");
+    c1.setApellido("Martin");
+    c1.setDni("0303456");
+    c1.getTicketList().add(ticket1);
     
-    
-    
-    
-    
+    Ticket ticket4= new Ticket (12, 4, 6, 2000, new Date(2024-6-14), new Date());
+    c1.getTicketList().add(ticket4);
     }
-    
 }
