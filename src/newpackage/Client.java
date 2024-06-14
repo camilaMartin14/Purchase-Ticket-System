@@ -1,4 +1,4 @@
-package newpackage1;
+package newpackage;
 
 import java.util.List;
 import newpackage.Ticket;
